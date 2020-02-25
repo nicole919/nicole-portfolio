@@ -1,3 +1,3 @@
 # Nicole's Portfolio! 
 
-https://nicole-portfolio.now.sh/
+https://nicole-portfolio.nicole919.now.sh/
