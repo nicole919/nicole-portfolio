@@ -1,0 +1,39 @@
+.aboutMe {
+  padding-top: 50px;
+  font-family: "Roboto";
+}
+
+.bio {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 15%;
+  padding-left: 15%;
+  display: inline-block;
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.me {
+  width: 30%;
+  height: 30%;
+}
+.s-media {
+  height: 50px;
+  padding-top: 20px;
+  display: inline-block;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 25px;
+}
+.s-media:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 1025px) {
+  .bio {
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 10%;
+  }
+}

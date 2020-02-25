@@ -1,0 +1,26 @@
+.projects {
+  padding-top: 55px;
+  font-family: "Roboto";
+}
+
+.projectimg {
+  width: 60%;
+  border: #efccd0 12px solid;
+}
+
+.project-a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+.project-a:hover {
+  color: black;
+}
+.projectimg:hover {
+  transform: scale(1.01);
+  opacity: 0.75;
+}
+@media (min-width: 1025px) {
+  .projectimg {
+    width: 30%;
+  }
+}

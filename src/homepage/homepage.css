@@ -1,0 +1,10 @@
+.nicole {
+  font-size: 100px;
+  padding-top: 20%;
+  height: 80vh;
+  display: block;
+}
+
+.nicole:hover {
+  color: #f16970;
+}
