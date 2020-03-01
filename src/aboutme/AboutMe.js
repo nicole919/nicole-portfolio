@@ -19,46 +19,49 @@ export default class AboutMe extends Component {
             Mario Kart.
           </p>
         </div>
-        <h4>Let's get in touch!</h4>
-        <section className="s-icons">
-          <a
-            id="email"
-            href="mailto:nicole.fafard@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://image.flaticon.com/icons/svg/59/59965.svg"
-              class="s-media"
-              alt="Email"
-            />
-          </a>
 
-          <a
-            id="github"
-            href="https://github.com/nicole919"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://image.flaticon.com/icons/svg/25/25231.svg"
-              class="s-media"
-              alt="github"
-            />
-          </a>
-
-          <a
-            id="linkedin"
-            href="https://www.linkedin.com/in/nicole-fafard/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://image.flaticon.com/icons/png/512/61/61109.png"
-              class="s-media"
-              alt="linkedin"
-            />
-          </a>
+        <section id="lab_social_icon_footer">
+          <div className="container">
+            <div className="text-center center-block">
+              <a
+                href="https://www.linkedin.com/in/nicole-fafard/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <a
+                  href="https://www.twitter.com/nicoleinprog/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i
+                    id="social-fb"
+                    class="fa fa-twitter-square fa-3x social"
+                  ></i>
+                </a>
+                <i
+                  id="social-fb"
+                  class="fa fa-linkedin-square fa-3x social"
+                ></i>
+              </a>
+              <a
+                href="https://github.com/nicole919"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i id="social-tw" class="fa fa-github-square fa-3x social"></i>
+              </a>
+              <a
+                href="mailto:nicole.fafard@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  id="social-em"
+                  class="fa fa-envelope-square fa-3x social"
+                ></i>
+              </a>
+            </div>
+          </div>
         </section>
       </div>
     );

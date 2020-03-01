@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { Switch, Route, Router } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Nav from "./nav/Nav";
 import Projects from "./projects/Projects";
 import Homepage from "./homepage/Homepage";
 import AboutMe from "./aboutme/AboutMe";
+import Contact from "./contact/Contact";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import "./App.css";
 
@@ -25,8 +26,9 @@ class App extends Component {
                 >
                   <Switch location={location}>
                     <Route exact path="/" component={Homepage} />
-                    <Route path="/AboutMe" component={AboutMe} />
-                    <Route path="/Projects" component={Projects} />
+                    <Route path="/aboutme" component={AboutMe} />
+                    <Route path="/projects" component={Projects} />
+                    <Route path="/contact" component={Contact} />
                   </Switch>
                 </CSSTransition>
               </TransitionGroup>
