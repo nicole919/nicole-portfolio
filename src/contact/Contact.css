@@ -4,7 +4,7 @@
 
 #lab_social_icon_footer {
   padding: 20px 0;
-  background-color: inherit;
+  background-color: transparent;
 }
 
 #lab_social_icon_footer a {
@@ -12,9 +12,9 @@
 }
 
 #lab_social_icon_footer .social:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
 }
 
 #lab_social_icon_footer .social {

@@ -1,11 +1,12 @@
 .projects {
   padding-top: 55px;
-  font-family: "Roboto";
+  font-family: "Open Sans", sans-serif;
 }
 
 .projectimg {
   width: 60%;
   border: #efccd0 7px solid;
+  box-shadow: 6px 8px 10px grey;
 }
 
 .project-a {
@@ -15,12 +16,12 @@
 .project-a:hover {
   color: black;
 }
-.projectimg:hover {
-  transform: scale(1.01);
-  opacity: 0.75;
+
+.projectSection {
+  width: 33%;
 }
 @media (min-width: 1025px) {
   .projectimg {
-    width: 30%;
+    width: 65%;
   }
 }

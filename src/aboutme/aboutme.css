@@ -1,6 +1,5 @@
 .aboutMe {
-  padding-top: 50px;
-  font-family: "Roboto";
+  font-family: "Poppins", sans-serif;
 }
 
 .bio {
@@ -29,11 +28,11 @@
 .s-media:hover {
   transform: scale(1.1);
 }
-
+#lab_social_icon_footer {
+  background-color: transparent;
+}
 @media (min-width: 1025px) {
   .bio {
-    padding-right: 30%;
-    padding-left: 30%;
-    padding-top: 10%;
+    padding: 0 15%;
   }
 }

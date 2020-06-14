@@ -1,10 +1,69 @@
 .nicole {
-  font-size: 100px;
-  padding-top: 20%;
-  height: 80vh;
+  padding: 1em 0 0 0;
+  font-size: 5em;
   display: block;
+  font-family: "Open Sans", sans-serif;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.nicole:hover {
-  color: #f16970;
+.smile {
+  font-size: 3em;
+  animation: fadeInAnimation2 ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section.intro {
+  background-color: #81d8d0;
+}
+.section.aboutMe {
+  background-color: #f6b7d7;
+  height: 40vh;
+}
+.section.projects {
+  background-color: #f6b7d7;
+}
+.aboutMeWrapper {
+  width: 50%;
+  background-color: white;
+  border: 4px solid #bd81a0;
+  border-radius: 50px;
+  margin-top: -5%;
+}
+h2 {
+  font-size: 2em;
+}
+
+.projectWrapper {
+  display: flex;
+  flex-direction: row;
 }

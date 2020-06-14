@@ -11,13 +11,17 @@ export default class Projects extends Component {
         <h1 className="projects">Here are my projects</h1>
         <section className="projectSection">
           <h3>Mental Note</h3>
-          <a
-            href="https://mental-note.nicole919.now.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={mentalnote} className="projectimg" alt="Mental Note" />
-          </a>
+
+          <div className="imgContainer">
+            <a
+              href="https://mental-note.nicole919.now.sh/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={mentalnote} className="projectimg" alt="Mental Note" />
+            </a>
+          </div>
+
           <p>
             A social note app. <br />
           </p>

@@ -6,12 +6,12 @@ export default class AboutMe extends Component {
     return (
       <div>
         <div className="AboutMe">
-          <h1 className="aboutMe">Hello, I'm Nicole :)</h1>
+          <h1 className="aboutMe">Hello, I'm Nicole</h1>
           {/*<img src={Me} className="me" />*/}
           <p className="bio">
-            I’m a beginner web developer from Arizona. After being in retail for
-            15 years, I decided to challenge myself by learning web development
-            - and I am so glad I did! Currently, my skillset includes HTML, CSS,
+            I’m a web developer from Arizona. After being in retail for 15
+            years, I decided to challenge myself by learning web development -
+            and I am so glad I did! Currently, my skillset includes HTML, CSS,
             JavaScript, React, Node.js, and PostgreSQL. The further I get into
             my learning, the more eager I am to put my skills into practice and
             work alongside experienced programmers to build applications. In my
