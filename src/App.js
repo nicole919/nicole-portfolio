@@ -14,9 +14,9 @@ class App extends Component {
       <Route
         render={({ location }) => (
           <div className="App">
-            <nav>
+            {/* <nav>
               <Nav />
-            </nav>
+            </nav> */}
             <main>
               <TransitionGroup>
                 <CSSTransition

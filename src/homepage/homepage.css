@@ -1,5 +1,5 @@
 .nicole {
-  padding: 1em 0 0 0;
+  /* padding: 1em 0 0 0; */
   font-size: 5em;
   display: block;
   font-family: "Open Sans", sans-serif;
@@ -52,12 +52,17 @@
 .section.projects {
   background-color: #f6b7d7;
 }
+.section.contact {
+  height: 100%;
+  margin-bottom: 3%;
+}
 .aboutMeWrapper {
   width: 50%;
   background-color: white;
-  border: 4px solid #bd81a0;
+  /* border: 4px solid #bd81a0; */
   border-radius: 50px;
   margin-top: -5%;
+  box-shadow: 7px 4px 12px 2px grey;
 }
 h2 {
   font-size: 2em;

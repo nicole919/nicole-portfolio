@@ -12,9 +12,9 @@
 }
 
 #lab_social_icon_footer .social:hover {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
 }
 
 #lab_social_icon_footer .social {

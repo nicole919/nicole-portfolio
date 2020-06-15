@@ -1,5 +1,4 @@
 .projects {
-  padding-top: 55px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -7,6 +6,9 @@
   width: 60%;
   border: #efccd0 7px solid;
   box-shadow: 6px 8px 10px grey;
+}
+.projectimg:hover {
+  transform: scale(1.01);
 }
 
 .project-a {
