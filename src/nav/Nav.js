@@ -15,6 +15,10 @@ export default class Header extends Component {
             {" "}
             <Link to="/Projects">Projects</Link>
           </span>
+          <span className="NavLink">
+            {" "}
+            <Link to="/Contact">Contact</Link>
+          </span>
         </nav>
       </>
     );
